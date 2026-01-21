@@ -1,0 +1,12 @@
+=== 롤백 완료 대기 중 ===
+시작 시간: 09:28:13
+
+09:28:15 - 현재 상태: ROLLBACK_IN_PROGRESS
+09:28:46 - 현재 상태: ROLLBACK_IN_PROGRESS
+09:29:17 - 현재 상태: ROLLBACK_IN_PROGRESS
+09:29:48 - 현재 상태: ROLLBACK_IN_PROGRESS
+09:30:19 - 현재 상태: ROLLBACK_IN_PROGRESS
+09:30:51 - 현재 상태: ROLLBACK_FAILED
+09:30:51 - 롤백 실패!
+
+완료 시간: 09:30:51

@@ -165,7 +165,7 @@ Resources:
       Role: !GetAtt LoadDataLambdaRole.Arn
       Runtime: python3.12
       MemorySize: 128
-      Timeout: 600
+      Timeout: 900
       VpcConfig:
         SecurityGroupIds:
           - !Ref LambdaVpcSecurityGroup
@@ -186,7 +186,7 @@ Resources:
           def handler(event, context):
             response_data = {}
             response_status = cfnresponse.SUCCESS
-            max_retries = 15  # Maximum number of retries - should be less than the timeout
+            max_retries = 30  # Maximum number of retries - 30 * 30s = 15 minutes
             retries = 0
             if event['RequestType'] in ['Create', 'Update']:     
               url = os.environ['ProductsServiceUrl']

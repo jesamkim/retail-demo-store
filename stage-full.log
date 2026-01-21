@@ -1,0 +1,317 @@
+Received argument "retail-demo-store-658492570831"
+Received a "--skip-virtualenv" flag. Will skip virtualenv inside this script.
+==============================================
+Executing the script with following arguments:
+==============================================
+BUCKET = retail-demo-store-658492570831
+S3PATH = 
+private-s3 = true
+only-cfn-template = false
+skip-generators = false
+skip-virtualenv = true
+==============================================
+ + Staging to retail-demo-store-658492570831 in 
+ + Uploading CloudFormation Templates
+Completed 1.4 KiB/401.3 KiB (4.1 KiB/s) with 39 file(s) remainingupload: aws/cloudformation-templates/README.md to s3://retail-demo-store-658492570831/cloudformation-templates/README.md
+Completed 1.4 KiB/401.3 KiB (4.1 KiB/s) with 38 file(s) remainingCompleted 2.4 KiB/401.3 KiB (6.8 KiB/s) with 38 file(s) remainingupload: aws/cloudformation-templates/apigateway-deploy.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/apigateway-deploy.yaml
+Completed 2.4 KiB/401.3 KiB (6.8 KiB/s) with 37 file(s) remainingCompleted 5.2 KiB/401.3 KiB (14.6 KiB/s) with 37 file(s) remainingupload: aws/cloudformation-templates/amazonpay.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/amazonpay.yaml
+Completed 5.2 KiB/401.3 KiB (14.6 KiB/s) with 36 file(s) remainingCompleted 10.2 KiB/401.3 KiB (27.6 KiB/s) with 36 file(s) remainingupload: aws/cloudformation-templates/alexa.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/alexa.yaml
+Completed 10.2 KiB/401.3 KiB (27.6 KiB/s) with 35 file(s) remainingCompleted 10.5 KiB/401.3 KiB (26.5 KiB/s) with 35 file(s) remainingupload: aws/cloudformation-templates/base/ecs-cluster.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/base/ecs-cluster.yaml
+Completed 10.5 KiB/401.3 KiB (26.5 KiB/s) with 34 file(s) remainingCompleted 19.7 KiB/401.3 KiB (49.5 KiB/s) with 34 file(s) remainingupload: aws/cloudformation-templates/base/authentication.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/base/authentication.yaml
+Completed 19.7 KiB/401.3 KiB (49.5 KiB/s) with 33 file(s) remainingCompleted 24.8 KiB/401.3 KiB (61.7 KiB/s) with 33 file(s) remainingupload: aws/cloudformation-templates/base/README.md to s3://retail-demo-store-658492570831/cloudformation-templates/base/README.md
+Completed 24.8 KiB/401.3 KiB (61.7 KiB/s) with 32 file(s) remainingCompleted 26.9 KiB/401.3 KiB (66.6 KiB/s) with 32 file(s) remainingupload: aws/cloudformation-templates/base/buckets.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/base/buckets.yaml
+Completed 26.9 KiB/401.3 KiB (66.6 KiB/s) with 31 file(s) remainingCompleted 45.4 KiB/401.3 KiB (103.3 KiB/s) with 31 file(s) remainingupload: aws/cloudformation-templates/apigateway.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/apigateway.yaml
+Completed 45.4 KiB/401.3 KiB (103.3 KiB/s) with 30 file(s) remainingCompleted 60.3 KiB/401.3 KiB (130.4 KiB/s) with 30 file(s) remainingupload: aws/cloudformation-templates/base/_template.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/base/_template.yaml
+Completed 60.3 KiB/401.3 KiB (130.4 KiB/s) with 29 file(s) remainingCompleted 63.2 KiB/401.3 KiB (129.6 KiB/s) with 29 file(s) remainingupload: aws/cloudformation-templates/base/event-driven.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/base/event-driven.yaml
+Completed 63.2 KiB/401.3 KiB (129.6 KiB/s) with 28 file(s) remainingCompleted 77.0 KiB/401.3 KiB (154.6 KiB/s) with 28 file(s) remainingupload: aws/cloudformation-templates/base/cloudfront.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/base/cloudfront.yaml
+Completed 77.0 KiB/401.3 KiB (154.6 KiB/s) with 27 file(s) remainingCompleted 90.7 KiB/401.3 KiB (180.6 KiB/s) with 27 file(s) remainingupload: aws/cloudformation-templates/base/notebook.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/base/notebook.yaml
+Completed 90.7 KiB/401.3 KiB (180.6 KiB/s) with 26 file(s) remainingCompleted 93.1 KiB/401.3 KiB (179.2 KiB/s) with 26 file(s) remainingupload: aws/cloudformation-templates/base/opensearch.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/base/opensearch.yaml
+Completed 93.1 KiB/401.3 KiB (179.2 KiB/s) with 25 file(s) remainingCompleted 93.6 KiB/401.3 KiB (174.8 KiB/s) with 25 file(s) remainingupload: aws/cloudformation-templates/base/servicediscovery.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/base/servicediscovery.yaml
+Completed 93.6 KiB/401.3 KiB (174.8 KiB/s) with 24 file(s) remainingCompleted 96.2 KiB/401.3 KiB (177.3 KiB/s) with 24 file(s) remainingupload: aws/cloudformation-templates/base/personalize.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/base/personalize.yaml
+Completed 96.2 KiB/401.3 KiB (177.3 KiB/s) with 23 file(s) remainingCompleted 100.4 KiB/401.3 KiB (181.5 KiB/s) with 23 file(s) remainingupload: aws/cloudformation-templates/base/tables.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/base/tables.yaml
+Completed 100.4 KiB/401.3 KiB (181.5 KiB/s) with 22 file(s) remainingCompleted 111.9 KiB/401.3 KiB (194.3 KiB/s) with 22 file(s) remainingupload: aws/cloudformation-templates/base/ssm.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/base/ssm.yaml
+Completed 111.9 KiB/401.3 KiB (194.3 KiB/s) with 21 file(s) remainingCompleted 118.2 KiB/401.3 KiB (203.0 KiB/s) with 21 file(s) remainingupload: aws/cloudformation-templates/base/vpc.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/base/vpc.yaml
+Completed 118.2 KiB/401.3 KiB (203.0 KiB/s) with 20 file(s) remainingCompleted 120.9 KiB/401.3 KiB (196.4 KiB/s) with 20 file(s) remainingupload: aws/cloudformation-templates/cleanup-bucket.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/cleanup-bucket.yaml
+Completed 120.9 KiB/401.3 KiB (196.4 KiB/s) with 19 file(s) remainingCompleted 121.0 KiB/401.3 KiB (195.8 KiB/s) with 19 file(s) remainingupload: aws/cloudformation-templates/codepipeline-config-github.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/codepipeline-config-github.yaml
+Completed 121.0 KiB/401.3 KiB (195.8 KiB/s) with 18 file(s) remainingCompleted 125.9 KiB/401.3 KiB (195.3 KiB/s) with 18 file(s) remainingupload: aws/cloudformation-templates/event-engine/base-workshop.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/event-engine/base-workshop.yaml
+Completed 125.9 KiB/401.3 KiB (195.3 KiB/s) with 17 file(s) remainingCompleted 150.0 KiB/401.3 KiB (231.7 KiB/s) with 17 file(s) remainingupload: aws/cloudformation-templates/deployment-support.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/deployment-support.yaml
+Completed 150.0 KiB/401.3 KiB (231.7 KiB/s) with 16 file(s) remainingCompleted 154.9 KiB/401.3 KiB (231.3 KiB/s) with 16 file(s) remainingupload: aws/cloudformation-templates/event-engine/mparticle-workshop.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/event-engine/mparticle-workshop.yaml
+Completed 154.9 KiB/401.3 KiB (231.3 KiB/s) with 15 file(s) remainingCompleted 159.8 KiB/401.3 KiB (237.6 KiB/s) with 15 file(s) remainingupload: aws/cloudformation-templates/event-engine/segment-workshop.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/event-engine/segment-workshop.yaml
+Completed 159.8 KiB/401.3 KiB (237.6 KiB/s) with 14 file(s) remainingCompleted 163.1 KiB/401.3 KiB (235.8 KiB/s) with 14 file(s) remainingupload: aws/cloudformation-templates/lex.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/lex.yaml
+Completed 163.1 KiB/401.3 KiB (235.8 KiB/s) with 13 file(s) remainingCompleted 168.2 KiB/401.3 KiB (231.7 KiB/s) with 13 file(s) remainingupload: aws/cloudformation-templates/mparticle.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/mparticle.yaml
+Completed 168.2 KiB/401.3 KiB (231.7 KiB/s) with 12 file(s) remainingCompleted 186.9 KiB/401.3 KiB (245.7 KiB/s) with 12 file(s) remainingupload: aws/cloudformation-templates/location.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/location.yaml
+Completed 186.9 KiB/401.3 KiB (245.7 KiB/s) with 11 file(s) remainingCompleted 192.2 KiB/401.3 KiB (251.9 KiB/s) with 11 file(s) remainingupload: aws/cloudformation-templates/segment.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/segment.yaml
+Completed 192.2 KiB/401.3 KiB (251.9 KiB/s) with 10 file(s) remainingCompleted 201.3 KiB/401.3 KiB (255.9 KiB/s) with 10 file(s) remainingupload: aws/cloudformation-templates/services/pinpoint-personalize.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/services/pinpoint-personalize.yaml
+Completed 201.3 KiB/401.3 KiB (255.9 KiB/s) with 9 file(s) remainingCompleted 204.0 KiB/401.3 KiB (258.7 KiB/s) with 9 file(s) remainingupload: aws/cloudformation-templates/services/service/loadbalancer.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/services/service/loadbalancer.yaml
+Completed 204.0 KiB/401.3 KiB (258.7 KiB/s) with 8 file(s) remainingCompleted 265.3 KiB/401.3 KiB (326.7 KiB/s) with 8 file(s) remainingupload: aws/cloudformation-templates/room-generator.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/room-generator.yaml
+Completed 265.3 KiB/401.3 KiB (326.7 KiB/s) with 7 file(s) remainingCompleted 287.9 KiB/401.3 KiB (353.8 KiB/s) with 7 file(s) remainingupload: aws/cloudformation-templates/services/_template.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/services/_template.yaml
+Completed 287.9 KiB/401.3 KiB (353.8 KiB/s) with 6 file(s) remainingCompleted 303.4 KiB/401.3 KiB (366.8 KiB/s) with 6 file(s) remainingupload: aws/cloudformation-templates/services/service/pipeline.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/services/service/pipeline.yaml
+Completed 303.4 KiB/401.3 KiB (366.8 KiB/s) with 5 file(s) remainingCompleted 315.1 KiB/401.3 KiB (376.9 KiB/s) with 5 file(s) remainingupload: aws/cloudformation-templates/swagger-ui-pipeline.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/swagger-ui-pipeline.yaml
+Completed 315.1 KiB/401.3 KiB (376.9 KiB/s) with 4 file(s) remainingCompleted 331.5 KiB/401.3 KiB (369.2 KiB/s) with 4 file(s) remainingupload: aws/cloudformation-templates/services/service/service.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/services/service/service.yaml
+Completed 331.5 KiB/401.3 KiB (369.2 KiB/s) with 3 file(s) remainingCompleted 340.3 KiB/401.3 KiB (375.6 KiB/s) with 3 file(s) remainingupload: aws/cloudformation-templates/services/service/_template.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/services/service/_template.yaml
+Completed 340.3 KiB/401.3 KiB (375.6 KiB/s) with 2 file(s) remainingCompleted 355.6 KiB/401.3 KiB (389.7 KiB/s) with 2 file(s) remainingupload: aws/cloudformation-templates/web-ui-pipeline.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/web-ui-pipeline.yaml
+Completed 355.6 KiB/401.3 KiB (389.7 KiB/s) with 1 file(s) remainingCompleted 401.3 KiB/401.3 KiB (421.4 KiB/s) with 1 file(s) remainingupload: aws/cloudformation-templates/template.yaml to s3://retail-demo-store-658492570831/cloudformation-templates/template.yaml
+ For CloudFormation : https://s3.amazonaws.com/retail-demo-store-658492570831/cloudformation-templates/template.yaml
+ + Packaging Source
+ + Uploading Source
+Completed 1.0 MiB/14.0 MiB (3.1 MiB/s) with 1 file(s) remainingCompleted 2.0 MiB/14.0 MiB (4.3 MiB/s) with 1 file(s) remainingCompleted 3.0 MiB/14.0 MiB (4.5 MiB/s) with 1 file(s) remainingCompleted 4.0 MiB/14.0 MiB (5.5 MiB/s) with 1 file(s) remainingCompleted 5.0 MiB/14.0 MiB (6.9 MiB/s) with 1 file(s) remainingCompleted 6.0 MiB/14.0 MiB (8.0 MiB/s) with 1 file(s) remainingCompleted 7.0 MiB/14.0 MiB (8.9 MiB/s) with 1 file(s) remainingCompleted 8.0 MiB/14.0 MiB (9.9 MiB/s) with 1 file(s) remainingCompleted 9.0 MiB/14.0 MiB (11.1 MiB/s) with 1 file(s) remainingCompleted 10.0 MiB/14.0 MiB (11.8 MiB/s) with 1 file(s) remainingCompleted 11.0 MiB/14.0 MiB (12.7 MiB/s) with 1 file(s) remainingCompleted 12.0 MiB/14.0 MiB (13.3 MiB/s) with 1 file(s) remainingCompleted 13.0 MiB/14.0 MiB (14.4 MiB/s) with 1 file(s) remainingCompleted 14.0 MiB/14.0 MiB (15.2 MiB/s) with 1 file(s) remainingCompleted 14.0 MiB/14.0 MiB (12.5 MiB/s) with 1 file(s) remainingupload: ./retaildemostore-source.zip to s3://retail-demo-store-658492570831/source/retaildemostore-source.zip
+ + Upload seed data
+Completed 1.0 MiB/1.4 MiB (22.1 MiB/s) with 3 file(s) remainingCompleted 1.4 MiB/1.4 MiB (26.8 MiB/s) with 3 file(s) remainingCompleted 1.4 MiB/1.4 MiB (4.1 MiB/s) with 3 file(s) remaining upload: src/products/data/categories.yaml to s3://retail-demo-store-658492570831/data/categories.yaml
+Completed 1.4 MiB/1.4 MiB (4.1 MiB/s) with 2 file(s) remainingCompleted 1.4 MiB/1.4 MiB (4.0 MiB/s) with 2 file(s) remainingupload: src/products/data/carts.yaml to s3://retail-demo-store-658492570831/data/carts.yaml
+Completed 1.4 MiB/1.4 MiB (4.0 MiB/s) with 1 file(s) remainingupload: src/products/data/products.yaml to s3://retail-demo-store-658492570831/data/products.yaml
+Completed 1.0 MiB/1.3 MiB (26.6 MiB/s) with 2 file(s) remainingCompleted 1.2 MiB/1.3 MiB (2.1 MiB/s) with 2 file(s) remaining upload: src/users/src/users-service/data/cstore_users.json.gz to s3://retail-demo-store-658492570831/data/cstore_users.json.gz
+Completed 1.2 MiB/1.3 MiB (2.1 MiB/s) with 1 file(s) remainingCompleted 1.3 MiB/1.3 MiB (1.6 MiB/s) with 1 file(s) remainingupload: src/users/src/users-service/data/users.json.gz to s3://retail-demo-store-658492570831/data/users.json.gz
+ + Upload IVS videos
+Completed 2.1 KiB/251.7 KiB (6.3 KiB/s) with 3 file(s) remainingupload: videos/default_streams/default_streams.json to s3://retail-demo-store-658492570831/videos/default_streams/default_streams.json
+Completed 2.1 KiB/251.7 KiB (6.3 KiB/s) with 2 file(s) remainingCompleted 2.3 KiB/251.7 KiB (6.8 KiB/s) with 2 file(s) remainingupload: videos/sample.srt to s3://retail-demo-store-658492570831/videos/sample.srt
+Completed 2.3 KiB/251.7 KiB (6.8 KiB/s) with 1 file(s) remainingCompleted 251.7 KiB/251.7 KiB (430.2 KiB/s) with 1 file(s) remainingupload: videos/sample.mkv to s3://retail-demo-store-658492570831/videos/sample.mkv
+ + Generating CSVs for Personalize model pre-create training
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: certifi in /usr/local/lib/python3.10/dist-packages (from -r generators/requirements.txt (line 1)) (2026.1.4)
+Requirement already satisfied: chardet in /home/ubuntu/.local/lib/python3.10/site-packages (from -r generators/requirements.txt (line 2)) (5.2.0)
+Requirement already satisfied: Faker in /home/ubuntu/.local/lib/python3.10/site-packages (from -r generators/requirements.txt (line 3)) (40.1.2)
+Requirement already satisfied: idna in /usr/local/lib/python3.10/dist-packages (from -r generators/requirements.txt (line 4)) (3.11)
+Requirement already satisfied: numpy in /home/ubuntu/.local/lib/python3.10/site-packages (from -r generators/requirements.txt (line 5)) (2.2.6)
+Requirement already satisfied: python-dateutil in /usr/local/lib/python3.10/dist-packages (from -r generators/requirements.txt (line 6)) (2.9.0.post0)
+Requirement already satisfied: pytz in /usr/lib/python3/dist-packages (from -r generators/requirements.txt (line 7)) (2022.1)
+Requirement already satisfied: PyYAML in /usr/local/lib/python3.10/dist-packages (from -r generators/requirements.txt (line 8)) (6.0.3)
+Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from -r generators/requirements.txt (line 9)) (2.32.5)
+Requirement already satisfied: scipy in /home/ubuntu/.local/lib/python3.10/site-packages (from -r generators/requirements.txt (line 10)) (1.15.3)
+Requirement already satisfied: six in /usr/local/lib/python3.10/dist-packages (from -r generators/requirements.txt (line 11)) (1.17.0)
+Requirement already satisfied: text-unidecode in /home/ubuntu/.local/lib/python3.10/site-packages (from -r generators/requirements.txt (line 12)) (1.3)
+Requirement already satisfied: zope.interface in /usr/lib/python3/dist-packages (from -r generators/requirements.txt (line 13)) (5.4.0)
+Requirement already satisfied: pandas==2.2.* in /home/ubuntu/.local/lib/python3.10/site-packages (from -r generators/requirements.txt (line 14)) (2.2.3)
+Requirement already satisfied: tzdata>=2022.7 in /usr/local/lib/python3.10/dist-packages (from pandas==2.2.*->-r generators/requirements.txt (line 14)) (2025.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests->-r generators/requirements.txt (line 9)) (3.4.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests->-r generators/requirements.txt (line 9)) (2.6.3)
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+Average product price: $313.00
+Minimum interactions to generate: 675000
+Starting timestamp: 1761141640 (2025-10-22 14:00:40)
+Seconds increment: 11
+Generating interactions... (this may take a few minutes)
+Writing interactions to: src/aws-lambda/personalize-pre-create-resources/data/interactions.csv
+Generated 60120 interactions so far (about 153 seconds to go)
+Generated 191141 interactions so far (about 113 seconds to go)
+Generated 322631 interactions so far (about 81 seconds to go)
+Generated 452881 interactions so far (about 51 seconds to go)
+Generated 585414 interactions so far (about 20 seconds to go)
+Interactions generation done.
+Total interactions: 675004
+Total product viewed: 581900 (226782)
+Total product added: 46552 (18248)
+Total cart viewed: 29095 (11307)
+Total checkout started: 11638 (4527)
+Total order completed: 5819 (2290)
+Generation script finished
+Generation script finished - created offers dataset
+ + Copying local product images (if any)
+
+The user-provided path datasets/1.4/images/ does not exist.
+Skipping load of local image dataset 1.4
+ + Copying location location data
+ + Copying CSVs for Personalize model pre-create resources
+Completed 994.5 KiB/42.0 MiB (11.4 MiB/s) with 4 file(s) remainingCompleted 1.5 MiB/42.0 MiB (6.2 MiB/s) with 4 file(s) remaining   Completed 2.5 MiB/42.0 MiB (7.2 MiB/s) with 4 file(s) remaining   Completed 2.5 MiB/42.0 MiB (5.8 MiB/s) with 4 file(s) remaining   upload: src/aws-lambda/personalize-pre-create-resources/data/users.csv to s3://retail-demo-store-658492570831/csvs/users.csv
+Completed 2.5 MiB/42.0 MiB (5.8 MiB/s) with 3 file(s) remainingCompleted 3.5 MiB/42.0 MiB (7.0 MiB/s) with 3 file(s) remainingCompleted 4.5 MiB/42.0 MiB (9.0 MiB/s) with 3 file(s) remainingCompleted 5.5 MiB/42.0 MiB (10.9 MiB/s) with 3 file(s) remainingCompleted 6.5 MiB/42.0 MiB (12.8 MiB/s) with 3 file(s) remainingCompleted 7.0 MiB/42.0 MiB (13.6 MiB/s) with 3 file(s) remainingupload: src/aws-lambda/personalize-pre-create-resources/data/items.csv to s3://retail-demo-store-658492570831/csvs/items.csv
+Completed 7.0 MiB/42.0 MiB (13.6 MiB/s) with 2 file(s) remainingCompleted 8.0 MiB/42.0 MiB (12.9 MiB/s) with 2 file(s) remainingupload: src/aws-lambda/personalize-pre-create-resources/data/offer_interactions.csv to s3://retail-demo-store-658492570831/csvs/offer_interactions.csv
+Completed 8.0 MiB/42.0 MiB (12.9 MiB/s) with 1 file(s) remainingCompleted 9.0 MiB/42.0 MiB (13.3 MiB/s) with 1 file(s) remainingCompleted 10.0 MiB/42.0 MiB (13.9 MiB/s) with 1 file(s) remainingCompleted 11.0 MiB/42.0 MiB (15.2 MiB/s) with 1 file(s) remainingCompleted 12.0 MiB/42.0 MiB (16.6 MiB/s) with 1 file(s) remainingCompleted 13.0 MiB/42.0 MiB (17.7 MiB/s) with 1 file(s) remainingCompleted 14.0 MiB/42.0 MiB (19.0 MiB/s) with 1 file(s) remainingCompleted 15.0 MiB/42.0 MiB (20.3 MiB/s) with 1 file(s) remainingCompleted 16.0 MiB/42.0 MiB (20.6 MiB/s) with 1 file(s) remainingCompleted 17.0 MiB/42.0 MiB (21.8 MiB/s) with 1 file(s) remainingCompleted 18.0 MiB/42.0 MiB (22.8 MiB/s) with 1 file(s) remainingCompleted 19.0 MiB/42.0 MiB (23.9 MiB/s) with 1 file(s) remainingCompleted 20.0 MiB/42.0 MiB (25.1 MiB/s) with 1 file(s) remainingCompleted 21.0 MiB/42.0 MiB (25.2 MiB/s) with 1 file(s) remainingCompleted 22.0 MiB/42.0 MiB (26.3 MiB/s) with 1 file(s) remainingCompleted 23.0 MiB/42.0 MiB (27.2 MiB/s) with 1 file(s) remainingCompleted 24.0 MiB/42.0 MiB (28.3 MiB/s) with 1 file(s) remainingCompleted 25.0 MiB/42.0 MiB (29.4 MiB/s) with 1 file(s) remainingCompleted 26.0 MiB/42.0 MiB (30.5 MiB/s) with 1 file(s) remainingCompleted 27.0 MiB/42.0 MiB (30.4 MiB/s) with 1 file(s) remainingCompleted 28.0 MiB/42.0 MiB (31.4 MiB/s) with 1 file(s) remainingCompleted 29.0 MiB/42.0 MiB (32.0 MiB/s) with 1 file(s) remainingCompleted 30.0 MiB/42.0 MiB (33.0 MiB/s) with 1 file(s) remainingCompleted 31.0 MiB/42.0 MiB (32.9 MiB/s) with 1 file(s) remainingCompleted 32.0 MiB/42.0 MiB (33.9 MiB/s) with 1 file(s) remainingCompleted 33.0 MiB/42.0 MiB (34.8 MiB/s) with 1 file(s) remainingCompleted 34.0 MiB/42.0 MiB (35.8 MiB/s) with 1 file(s) remainingCompleted 35.0 MiB/42.0 MiB (36.3 MiB/s) with 1 file(s) remainingCompleted 36.0 MiB/42.0 MiB (37.2 MiB/s) with 1 file(s) remainingCompleted 37.0 MiB/42.0 MiB (38.2 MiB/s) with 1 file(s) remainingCompleted 38.0 MiB/42.0 MiB (39.1 MiB/s) with 1 file(s) remainingCompleted 39.0 MiB/42.0 MiB (39.1 MiB/s) with 1 file(s) remainingCompleted 40.0 MiB/42.0 MiB (39.9 MiB/s) with 1 file(s) remainingCompleted 41.0 MiB/42.0 MiB (40.0 MiB/s) with 1 file(s) remainingCompleted 42.0 MiB/42.0 MiB (40.8 MiB/s) with 1 file(s) remainingupload: src/aws-lambda/personalize-pre-create-resources/data/interactions.csv to s3://retail-demo-store-658492570831/csvs/interactions.csv
+ + Staging AWS Lambda functions
+  + Staging ./src/aws-lambda/alexa-skill-lambda/
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+aiobotocore 2.25.1 requires botocore<1.40.62,>=1.40.46, but you have botocore 1.42.30 which is incompatible.
+awscli 1.44.16 requires botocore==1.42.26, but you have botocore 1.42.30 which is incompatible.
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/amazon-pay-signing/
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/bot-intent-recommendations/
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+bedrock-agentcore-starter-toolkit 0.2.6 requires boto3>=1.42.1, but you have boto3 1.40.61 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires botocore>=1.42.1, but you have botocore 1.40.61 which is incompatible.
+prance 25.4.8.0 requires requests>=2.32.3, but you have requests 2.31.0 which is incompatible.
+awscli 1.44.16 requires botocore==1.42.26, but you have botocore 1.40.61 which is incompatible.
+awscli 1.44.16 requires s3transfer<0.17.0,>=0.16.0, but you have s3transfer 0.14.0 which is incompatible.
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/ivs-create-channels/
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+aiobotocore 2.25.1 requires botocore<1.40.62,>=1.40.46, but you have botocore 1.29.165 which is incompatible.
+bedrock-agentcore 1.2.0 requires boto3>=1.40.52, but you have boto3 1.26.135 which is incompatible.
+bedrock-agentcore 1.2.0 requires botocore>=1.40.52, but you have botocore 1.29.165 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires boto3>=1.42.1, but you have boto3 1.26.135 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires botocore>=1.42.1, but you have botocore 1.29.165 which is incompatible.
+prance 25.4.8.0 requires packaging>=24.2, but you have packaging 20.4 which is incompatible.
+awscli 1.44.16 requires botocore==1.42.26, but you have botocore 1.29.165 which is incompatible.
+awscli 1.44.16 requires s3transfer<0.17.0,>=0.16.0, but you have s3transfer 0.6.2 which is incompatible.
+black 25.12.0 requires packaging>=22.0, but you have packaging 20.4 which is incompatible.
+build 1.4.0 requires packaging>=24.0, but you have packaging 20.4 which is incompatible.
+pipdeptree 2.30.0 requires packaging>=25, but you have packaging 20.4 which is incompatible.
+pipenv 2026.0.3 requires packaging>=22, but you have packaging 20.4 which is incompatible.
+pytest 9.0.2 requires packaging>=22, but you have packaging 20.4 which is incompatible.
+safety-schemas 0.0.14 requires packaging>=21.0, but you have packaging 20.4 which is incompatible.
+safety-schemas 0.0.14 requires pydantic<2.10.0,>=2.6.0, but you have pydantic 2.12.5 which is incompatible.
+twine 6.2.0 requires packaging>=24.0, but you have packaging 20.4 which is incompatible.
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/location-geofence-event/
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+aiobotocore 2.25.1 requires botocore<1.40.62,>=1.40.46, but you have botocore 1.29.165 which is incompatible.
+bedrock-agentcore 1.2.0 requires boto3>=1.40.52, but you have boto3 1.26.135 which is incompatible.
+bedrock-agentcore 1.2.0 requires botocore>=1.40.52, but you have botocore 1.29.165 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires boto3>=1.42.1, but you have boto3 1.26.135 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires botocore>=1.42.1, but you have botocore 1.29.165 which is incompatible.
+prance 25.4.8.0 requires requests>=2.32.3, but you have requests 2.31.0 which is incompatible.
+awscli 1.44.16 requires botocore==1.42.26, but you have botocore 1.29.165 which is incompatible.
+awscli 1.44.16 requires s3transfer<0.17.0,>=0.16.0, but you have s3transfer 0.6.2 which is incompatible.
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/location-resource-stack/
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+aiobotocore 2.25.1 requires botocore<1.40.62,>=1.40.46, but you have botocore 1.42.30 which is incompatible.
+prance 25.4.8.0 requires packaging>=24.2, but you have packaging 20.4 which is incompatible.
+awscli 1.44.16 requires botocore==1.42.26, but you have botocore 1.42.30 which is incompatible.
+black 25.12.0 requires packaging>=22.0, but you have packaging 20.4 which is incompatible.
+build 1.4.0 requires packaging>=24.0, but you have packaging 20.4 which is incompatible.
+pipdeptree 2.30.0 requires packaging>=25, but you have packaging 20.4 which is incompatible.
+pipenv 2026.0.3 requires packaging>=22, but you have packaging 20.4 which is incompatible.
+pytest 9.0.2 requires packaging>=22, but you have packaging 20.4 which is incompatible.
+safety-schemas 0.0.14 requires packaging>=21.0, but you have packaging 20.4 which is incompatible.
+safety-schemas 0.0.14 requires pydantic<2.10.0,>=2.6.0, but you have pydantic 2.12.5 which is incompatible.
+twine 6.2.0 requires packaging>=24.0, but you have packaging 20.4 which is incompatible.
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/mparticle-personalize/
+npm warn deprecated formidable@1.2.6: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+npm warn deprecated superagent@3.8.3: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), filesystem errors not bubbling up (ENOENT on attach()), and all tests are now passing.  See the releases tab for more information at <https://github.com/visionmedia/superagent/releases>.
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/opensearch-pre-index/
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+aiobotocore 2.25.1 requires botocore<1.40.62,>=1.40.46, but you have botocore 1.38.46 which is incompatible.
+bedrock-agentcore 1.2.0 requires boto3>=1.40.52, but you have boto3 1.38.29 which is incompatible.
+bedrock-agentcore 1.2.0 requires botocore>=1.40.52, but you have botocore 1.38.46 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires boto3>=1.42.1, but you have boto3 1.38.29 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires botocore>=1.42.1, but you have botocore 1.38.46 which is incompatible.
+awscli 1.44.16 requires botocore==1.42.26, but you have botocore 1.38.46 which is incompatible.
+awscli 1.44.16 requires s3transfer<0.17.0,>=0.16.0, but you have s3transfer 0.13.1 which is incompatible.
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/personalize-pre-create-resources/
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+aiobotocore 2.25.1 requires botocore<1.40.62,>=1.40.46, but you have botocore 1.34.162 which is incompatible.
+bedrock-agentcore 1.2.0 requires boto3>=1.40.52, but you have boto3 1.34.71 which is incompatible.
+bedrock-agentcore 1.2.0 requires botocore>=1.40.52, but you have botocore 1.34.162 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires boto3>=1.42.1, but you have boto3 1.34.71 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires botocore>=1.42.1, but you have botocore 1.34.162 which is incompatible.
+prance 25.4.8.0 requires packaging>=24.2, but you have packaging 20.4 which is incompatible.
+awscli 1.44.16 requires botocore==1.42.26, but you have botocore 1.34.162 which is incompatible.
+awscli 1.44.16 requires s3transfer<0.17.0,>=0.16.0, but you have s3transfer 0.10.4 which is incompatible.
+black 25.12.0 requires packaging>=22.0, but you have packaging 20.4 which is incompatible.
+build 1.4.0 requires packaging>=24.0, but you have packaging 20.4 which is incompatible.
+pipdeptree 2.30.0 requires packaging>=25, but you have packaging 20.4 which is incompatible.
+pipenv 2026.0.3 requires packaging>=22, but you have packaging 20.4 which is incompatible.
+pytest 9.0.2 requires packaging>=22, but you have packaging 20.4 which is incompatible.
+safety-schemas 0.0.14 requires packaging>=21.0, but you have packaging 20.4 which is incompatible.
+safety-schemas 0.0.14 requires pydantic<2.10.0,>=2.6.0, but you have pydantic 2.12.5 which is incompatible.
+twine 6.2.0 requires packaging>=24.0, but you have packaging 20.4 which is incompatible.
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/pinpoint-auto-workshop/
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/pinpoint-offers-recommender/
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+bedrock-agentcore-starter-toolkit 0.2.6 requires boto3>=1.42.1, but you have boto3 1.40.61 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires botocore>=1.42.1, but you have botocore 1.40.61 which is incompatible.
+awscli 1.44.16 requires botocore==1.42.26, but you have botocore 1.40.61 which is incompatible.
+awscli 1.44.16 requires s3transfer<0.17.0,>=0.16.0, but you have s3transfer 0.14.0 which is incompatible.
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/pinpoint-recommender/
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+bedrock-agentcore-starter-toolkit 0.2.6 requires boto3>=1.42.1, but you have boto3 1.40.61 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires botocore>=1.42.1, but you have botocore 1.40.61 which is incompatible.
+awscli 1.44.16 requires botocore==1.42.26, but you have botocore 1.40.61 which is incompatible.
+awscli 1.44.16 requires s3transfer<0.17.0,>=0.16.0, but you have s3transfer 0.14.0 which is incompatible.
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/pinpoint-sms-alerts/
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/roomgenerator/
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+aiobotocore 2.25.1 requires botocore<1.40.62,>=1.40.46, but you have botocore 1.35.28 which is incompatible.
+bedrock-agentcore 1.2.0 requires boto3>=1.40.52, but you have boto3 1.35.28 which is incompatible.
+bedrock-agentcore 1.2.0 requires botocore>=1.40.52, but you have botocore 1.35.28 which is incompatible.
+bedrock-agentcore 1.2.0 requires typing-extensions<5.0.0,>=4.13.2, but you have typing-extensions 4.12.0 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires boto3>=1.42.1, but you have boto3 1.35.28 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires botocore>=1.42.1, but you have botocore 1.35.28 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires typing-extensions<5.0.0,>=4.13.2, but you have typing-extensions 4.12.0 which is incompatible.
+pydantic 2.12.5 requires typing-extensions>=4.14.1, but you have typing-extensions 4.12.0 which is incompatible.
+pydantic-core 2.41.5 requires typing-extensions>=4.14.1, but you have typing-extensions 4.12.0 which is incompatible.
+strands-agents 1.22.0 requires typing-extensions<5.0.0,>=4.13.2, but you have typing-extensions 4.12.0 which is incompatible.
+awscli 1.44.16 requires botocore==1.42.26, but you have botocore 1.35.28 which is incompatible.
+awscli 1.44.16 requires s3transfer<0.17.0,>=0.16.0, but you have s3transfer 0.10.0 which is incompatible.
+cryptography 46.0.3 requires typing-extensions>=4.13.2; python_full_version < "3.11", but you have typing-extensions 4.12.0 which is incompatible.
+safety-schemas 0.0.14 requires pydantic<2.10.0,>=2.6.0, but you have pydantic 2.12.5 which is incompatible.
+virtualenv 20.36.1 requires typing-extensions>=4.13.2; python_version < "3.11", but you have typing-extensions 4.12.0 which is incompatible.
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+aiobotocore 2.25.1 requires botocore<1.40.62,>=1.40.46, but you have botocore 1.35.28 which is incompatible.
+bedrock-agentcore 1.2.0 requires boto3>=1.40.52, but you have boto3 1.35.28 which is incompatible.
+bedrock-agentcore 1.2.0 requires botocore>=1.40.52, but you have botocore 1.35.28 which is incompatible.
+bedrock-agentcore 1.2.0 requires typing-extensions<5.0.0,>=4.13.2, but you have typing-extensions 4.12.0 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires boto3>=1.42.1, but you have boto3 1.35.28 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires botocore>=1.42.1, but you have botocore 1.35.28 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires typing-extensions<5.0.0,>=4.13.2, but you have typing-extensions 4.12.0 which is incompatible.
+mcp 1.25.0 requires pydantic<3.0.0,>=2.11.0, but you have pydantic 2.6.2 which is incompatible.
+prance 25.4.8.0 requires requests>=2.32.3, but you have requests 2.32.2 which is incompatible.
+pydantic-settings 2.12.0 requires pydantic>=2.7.0, but you have pydantic 2.6.2 which is incompatible.
+strands-agents 1.22.0 requires typing-extensions<5.0.0,>=4.13.2, but you have typing-extensions 4.12.0 which is incompatible.
+awscli 1.44.16 requires botocore==1.42.26, but you have botocore 1.35.28 which is incompatible.
+awscli 1.44.16 requires s3transfer<0.17.0,>=0.16.0, but you have s3transfer 0.10.0 which is incompatible.
+cryptography 46.0.3 requires typing-extensions>=4.13.2; python_full_version < "3.11", but you have typing-extensions 4.12.0 which is incompatible.
+fastapi 0.128.0 requires pydantic>=2.7.0, but you have pydantic 2.6.2 which is incompatible.
+virtualenv 20.36.1 requires typing-extensions>=4.13.2; python_version < "3.11", but you have typing-extensions 4.12.0 which is incompatible.
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+bedrock-agentcore-starter-toolkit 0.2.6 requires boto3>=1.42.1, but you have boto3 1.40.61 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires botocore>=1.42.1, but you have botocore 1.40.61 which is incompatible.
+pydantic 2.12.5 requires pydantic-core==2.41.5, but you have pydantic-core 2.16.3 which is incompatible.
+safety-schemas 0.0.14 requires pydantic<2.10.0,>=2.6.0, but you have pydantic 2.12.5 which is incompatible.
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/segment-personalize-events-destination/
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/segment-personalize-inference-destination/
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+bedrock-agentcore-starter-toolkit 0.2.6 requires boto3>=1.42.1, but you have boto3 1.40.61 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires botocore>=1.42.1, but you have botocore 1.40.61 which is incompatible.
+awscli 1.44.16 requires botocore==1.42.26, but you have botocore 1.40.61 which is incompatible.
+awscli 1.44.16 requires s3transfer<0.17.0,>=0.16.0, but you have s3transfer 0.14.0 which is incompatible.
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/websocket-connect/
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+aiobotocore 2.25.1 requires botocore<1.40.62,>=1.40.46, but you have botocore 1.29.165 which is incompatible.
+bedrock-agentcore 1.2.0 requires boto3>=1.40.52, but you have boto3 1.26.135 which is incompatible.
+bedrock-agentcore 1.2.0 requires botocore>=1.40.52, but you have botocore 1.29.165 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires boto3>=1.42.1, but you have boto3 1.26.135 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires botocore>=1.42.1, but you have botocore 1.29.165 which is incompatible.
+awscli 1.44.16 requires botocore==1.42.26, but you have botocore 1.29.165 which is incompatible.
+awscli 1.44.16 requires s3transfer<0.17.0,>=0.16.0, but you have s3transfer 0.6.2 which is incompatible.
+/Workshop/retail-demo-store
+  + Staging ./src/aws-lambda/websocket-disconnect/
+WARNING: Error parsing dependencies of devscripts: Invalid version: '2.22.1ubuntu1'
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+aiobotocore 2.25.1 requires botocore<1.40.62,>=1.40.46, but you have botocore 1.29.165 which is incompatible.
+bedrock-agentcore 1.2.0 requires boto3>=1.40.52, but you have boto3 1.26.135 which is incompatible.
+bedrock-agentcore 1.2.0 requires botocore>=1.40.52, but you have botocore 1.29.165 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires boto3>=1.42.1, but you have boto3 1.26.135 which is incompatible.
+bedrock-agentcore-starter-toolkit 0.2.6 requires botocore>=1.42.1, but you have botocore 1.29.165 which is incompatible.
+awscli 1.44.16 requires botocore==1.42.26, but you have botocore 1.29.165 which is incompatible.
+awscli 1.44.16 requires s3transfer<0.17.0,>=0.16.0, but you have s3transfer 0.6.2 which is incompatible.
+/Workshop/retail-demo-store
+ + Done s3://retail-demo-store-658492570831/ 
+ Launch CloudFormation stack: https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://s3.amazonaws.com/retail-demo-store-658492570831/cloudformation-templates/template.yaml&stackName=retaildemostore&param_ResourceBucket=retail-demo-store-658492570831
+ For CloudFormation : https://s3.amazonaws.com/retail-demo-store-658492570831/cloudformation-templates/template.yaml
